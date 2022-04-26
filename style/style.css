@@ -25,11 +25,17 @@ h1{
     color:#042839;
 }
 h5, h6{
-    color: white;
+    color: black;
     font-weight: bold;
     text-shadow:
-    -1px -1px #042839,
-    1px -1px #042839,
-    -1px 1px #042839,
-    1px 1px #042839; 
+    -1px -1px white,
+    1px -1px white,
+    -1px 1px white,
+    1px 1px white
+}
+nav li a:hover{
+    background-color: #d2ca89;
+}
+footer{
+    background-color: #776885;
 }
