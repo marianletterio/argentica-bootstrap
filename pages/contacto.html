@@ -34,7 +34,7 @@
                     <div id="MenuNavegacion" class="collapse navbar-collapse">
                         <ul class="navbar-nav text-dark">
                             <li class="nav-item">
-                                <a class="nav-link active fw-bold" aria-current="page" href="./servicios.html">Servicios</a>
+                                <a class="nav-link active" aria-current="page" href="./servicios.html">Servicios</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="./talleres.html">Talleres</a>
@@ -47,7 +47,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                                <a class="nav-link active fw-bold" aria-current="page" href="./contacto.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -58,12 +58,45 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 p-3">
-                        <h1 class="pt-3 ps-3 animate__animated animate__zoomIn">SERVICIOS</h1>
+                        <h1 class="pt-3 ps-3 animate__animated animate__zoomIn">Contacto</h1>
                     </div>
+                    <form class="form col-4 m-3 pt-1">
+                        <p class="Consulta">Mail: <a href = "mailto: argenticalab@gmail.com" target="_blank">argenticalab@gmail.com</a>
+                            <br>
+                            Whatsapp: <a href="https://wa.me/000000000" target="_blank">000-000-000</a>
+                            <br>
+                            Teléfono: <a href="tel:000000000">000-000-000</a>
+                            <br>
+                            Seguinos en <a href="https://www.instagram.com/argenticalab/" target="_blank">Instagram</a>, <a href="https://www.facebook.com/argenticalab/" target="_blank">Facebook</a>, <a href="https://www.twitter.com/argenticalab/" target="_blank">Twitter</a>, <a href="https://www.youtube.com/argenticalab/" target="_blank">Youtube</a>
+                            </p>
+                        <div class="row g-3">
+                            <div class="col">
+                                <input id="name" type="text" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="col">
+                                <input id="lastname" type="text" class="form-control" placeholder="Apellido">
+                            </div>
+                            <br>
+                            <div>
+                                <label for="email" class="visually-hidden">Email</label>
+                                <input id="email" type="text" class="form-control" placeholder="Correo electrónico" required>
+                            </div>
+                            <div>
+                                <label for=comments>Dudas? Preguntas? Comentarios?</label>
+                                <label for="comments" class="form-label"></label>
+                                <textarea class="form-control" id="comments" rows="3"></textarea>
+                            </div>
+                            <br>
+                            <div>
+                                <button class="btn btn-light" type="button">Enviar</button>
+                            </div>
+                            <br>            
+                        </div>
+                      </form>
                 </div>
             </div>
         </main>
-    
+            
         <!-- Footer -->
         <div class="b-example-divider"></div>
         <footer class="d-flex flex-row flex-wrap justify-content-between align-items-center py-3 my-4 border-top">

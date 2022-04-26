@@ -10,7 +10,26 @@
 }
 body{
     background-color: white;
+    font-family: 'Quicksand', sans-serif;
 }
 main{
-    background-image: url("../media/backgroundoriginal.jpg");
+    background-image: url("../media/background.png");
+}
+p{
+    text-align:justify;
+    color:#042839
+}
+h1{
+    font-family: 'Hepta Slab', serif;
+    font-weight: bold;
+    color:#042839;
+}
+h5, h6{
+    color: white;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px #042839,
+    1px -1px #042839,
+    -1px 1px #042839,
+    1px 1px #042839; 
 }
