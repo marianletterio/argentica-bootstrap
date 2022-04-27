@@ -1,0 +1,20 @@
+$oscuro: #042839;
+$dorado: #d2ca89;
+$lila: #776885;
+$titulo: 'Hepta Slab', serif;
+$texto: 'Quicksand', sans-serif;
+
+body{
+    background-color: white;
+    font-family: $titulo;
+
+    nav li a:hover{
+        background-color: $dorado;
+    }
+
+    footer{
+        background-color: $lila;
+    }
+}
+
+@import "main"

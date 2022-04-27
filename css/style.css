@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+  font-family: "Hepta Slab", serif; }
+  body nav li a:hover {
+    background-color: #d2ca89; }
+  body footer {
+    background-color: #776885; }
+
+main {
+  background-image: url("../media/background.png"); }
+  main h1 {
+    color: #042839;
+    text-align: justify;
+    font-family: "Hepta Slab", serif; }
+  main p {
+    color: #042839;
+    text-align: justify;
+    font-family: "Quicksand", sans-serif; }
+  main h5, main h6 {
+    color: black;
+    font-weight: bold;
+    font-family: "Hepta Slab", serif;
+    text-shadow: 1px 1px 2px white; }
